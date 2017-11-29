@@ -1,12 +1,12 @@
 ## Aiohttp template
 
-It is basic aiohttp web service template with swagger, 
-debugtoolbar, postgres and tests (via pytest) setup  
+It is very basic aiohttp web service template with swagger, 
+debugtoolbar, postgres, tests (via pytest) and versioning setup  
 
 Before running the app you should run postgres 
-(or another database and edit ```app/db.py```) or 
+(or another database and edit "app/db.py") or 
 comment ```from .db import init_db, close_db``` line 
-in ```app/__init__.py```
+in "app/__init__.py"
 
 Run app:
 ```
@@ -23,9 +23,9 @@ Run pytest:
 py.test
 ```
 
-Debugtoolbar: ```/_debugtoolbar``` (edit in ```app/__init__.py```)
+Debugtoolbar: ```/_debugtoolbar``` (edit in "app/__init__.py")
 
-Swagger: ```/v1/doc``` (edit in ```app/__init__.py```)
+Swagger: ```/v1/doc``` (edit in "app/__init__.py")
 
 
-Feel free to use, fork, edit :)
+Feel free to use, fork, develop :)

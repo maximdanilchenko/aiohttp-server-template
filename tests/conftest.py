@@ -4,7 +4,7 @@ import yaml
 
 pytest_plugins = 'aiohttp.pytest_plugin'
 
-# Для тестов можно использовать другой конфиг:
+# We can use another config for tests if needed:
 with open('config.yaml', 'rb') as f:
     config = yaml.load(f)
 
