@@ -1,0 +1,6 @@
+environment: dev
+postgres:
+  user: root
+  db: my_db
+  min_size: 5
+  max_size: 10

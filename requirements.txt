@@ -1,0 +1,7 @@
+aiohttp
+asyncpg
+aiohttp_debugtoolbar
+aiohttp-swagger
+pyyaml
+uvloop
+gunicorn
